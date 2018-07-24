@@ -2,10 +2,16 @@
 	height: 100%;
 }
 
+.container {
+	position: 'relative';
+}
+
 .background-wrapper {
 	display: flex;
+	position: absolute;
 	min-height: 100%;
 	width: 100%;
+	z-index: -1;
 }
 
 .bg-label {
@@ -28,4 +34,22 @@
 
 .border-circle {
 	border: 25px solid hsl(0, 0%, 19%);
+}
+
+.wrapper {
+	display: flex;
+}
+
+.column-1 {
+	flex: 1;
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.full-height {
+	height: 100%;
 }
