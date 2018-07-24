@@ -1,0 +1,31 @@
+#___gatsby {
+	height: 100%;
+}
+
+.background-wrapper {
+	display: flex;
+	min-height: 100%;
+	width: 100%;
+}
+
+.bg-label {
+	flex: 1;
+	display: inline-block;
+	height: 100%;
+	> p {
+		text-transform: uppercase;
+		font-size: 129px;
+    	line-height: 100px;
+		color: 	hsl(0, 0%, 19%);
+	}
+}
+
+.border-left {
+	border-left: 25px solid hsl(0, 0%, 19%);
+	border-top: 25px solid	hsl(0, 0%, 19%);
+	border-bottom: 25px solid hsl(0, 0%, 19%);
+}
+
+.border-circle {
+	border: 25px solid hsl(0, 0%, 19%);
+}
