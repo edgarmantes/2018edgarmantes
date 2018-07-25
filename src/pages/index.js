@@ -7,11 +7,15 @@ const IndexPage = (props) => (
 		<Background />
 		<section className="intro-section full-height">   
 			<div className="wrapper full-height">	
-				<div className="column-1 centered">	
-					<h1>Left side</h1>
+				<div className="column-1 centered">
+					<div className="section-wrapper align-center">	
+						<div className="image-wrapper"></div>
+						<p className="intro-p-name">Edgar Mantes</p>
+						<p>frontend developer at <span className="company-title">WHQ</span> Inc.</p>
+					</div>	
 				</div>
 				<div className="column-1 centered">	
-					<h1>Right side</h1>
+					<blockquote className="blockquote">When something is important enough, you do it even if the odds are not in your favor</blockquote>
 				</div>
 			</div>
 		</section>

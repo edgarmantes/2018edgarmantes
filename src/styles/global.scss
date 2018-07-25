@@ -2,6 +2,11 @@
 	height: 100%;
 }
 
+p,
+blockquote {
+	font-size: 3rem;
+}
+
 .container {
 	position: 'relative';
 }
@@ -42,6 +47,12 @@
 
 .column-1 {
 	flex: 1;
+}
+
+.column-1:nth-child(2) {
+	height: 14rem;
+    margin: auto 0;
+    border-left: 1px solid white;
 }
 
 .centered {
