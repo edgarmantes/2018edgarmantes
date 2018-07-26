@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Nav from '../components/Nav'
 import './index.scss'
 
 const Layout = ({ children, data }) => (
@@ -20,6 +21,7 @@ const Layout = ({ children, data }) => (
         margin: '0'
       }}
     >
+      <Nav />
       {children()}
     </div>
   </div>
