@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Nav = (props) => {
 	return (
@@ -15,6 +16,11 @@ const Nav = (props) => {
 				</li>
 				<li>
 					<a href="">GitHub</a>
+				</li>
+				<li>
+					<div>
+						<FontAwesomeIcon icon="file" size="xs" />
+					</div>
 				</li>
 			</ul>
 		</nav>

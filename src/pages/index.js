@@ -1,6 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Background from '../components/Background.js'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faFile)
 
 const IndexPage = (props) => (
 	<div className="container full-height" >
