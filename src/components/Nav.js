@@ -7,6 +7,7 @@ const Nav = (props) => {
 			<ul className="nav-list">
 				<li>
 					<a href="">About Me</a>
+					<FontAwesomeIcon className="about-me-icon" icon="portrait" />
 				</li>
 				<li>
 					<a href="">Projects</a>
