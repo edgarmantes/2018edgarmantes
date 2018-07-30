@@ -7,22 +7,21 @@ const Nav = (props) => {
 			<ul className="nav-list">
 				<li>
 					<a href="">About Me</a>
-					<FontAwesomeIcon className="about-me-icon" icon="portrait" />
+					<FontAwesomeIcon className="about-me-icon nav-icon" icon="portrait" />
 				</li>
 				<li>
 					<a href="">Projects</a>
+					<FontAwesomeIcon className="projects nav-icon" icon="briefcase" />
 				</li>
 				<li>
 					<a href="">LinkedIn</a>
+					<FontAwesomeIcon className="projects nav-icon" icon="link" />
 				</li>
 				<li>
 					<a href="">GitHub</a>
+					<FontAwesomeIcon className="projects nav-icon" icon="file" />
 				</li>
-				<li>
-					<div>
-						<FontAwesomeIcon icon="file" size="xs" />
-					</div>
-				</li>
+			
 			</ul>
 		</nav>
 	)
