@@ -1,49 +1,30 @@
-.image-wrapper {
-	width: 100px;
-	height: 100px;
+.nav-list {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 4rem;
+}
+
+.myLogo {
+	height: 30rem;
+	width: 30rem;
+	background-color: hsl(192, 100%, 80%);
 	border-radius: 50%;
-	background-color: white;
-	overflow: hidden;
-	border: 2px solid white;
-	padding: 2px;
-	box-shadow: -8px 6px 20px black;
 }
 
-.section-wrapper p {
-	text-shadow: -8px 6px 10px black;
-}
-
-.intro-p-name {
-	margin-top: 0.2rem;
-	margin-bottom: 0.1rem;
-    font-size: 6rem;
-    line-height: 4rem;
-    text-align: left;
-}
-
-.company-title {
-	font-size: 54px;
-	color: hsl(0, 100%, 40%);
-}
-
-.blockquote {
-	max-width: 300px;
-    line-height: 2rem;
-    text-align: right;
-    text-shadow: -8px 6px 10px black;
-}
-
-cite {
-	padding-right: 1.45rem;
-    font-size: 37px;
-}
-
-.quote:before,
-.quote:after {
-	content: '"'
-}
-
-.nav-icon {
-	font-size: 23px;
-	margin-left: 12px;
+.home-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 4rem;
+	.home-name {
+		font-size: 2rem;
+    	margin-bottom: 0;
+	}
+	.home-position {
+		font-size: 1.5rem;
+		span {
+			font-size: 1.5rem;
+		}
+	}
 }

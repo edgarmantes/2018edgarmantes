@@ -21,7 +21,7 @@ const Layout = ({ children, data }) => (
         margin: '0'
       }}
     >
-      <Nav />
+      
       {children()}
     </div>
   </div>
